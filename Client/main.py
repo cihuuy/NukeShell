@@ -21,8 +21,8 @@ if name == "nt":
     system("chcp 65001 > " + devnull)
 
 # Pengaturan server default
-SERVER_HOST = "rasep59-52984.portmap.host"
-SERVER_PORT = 52984
+SERVER_HOST = "sharon21-48812.portmap.host"
+SERVER_PORT = 48812
 
 # Fungsi untuk membangun koneksi dengan logika pengulangan
 def connect_with_retry(host, port, retries=5, delay=5):
