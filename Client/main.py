@@ -10,8 +10,8 @@ if name == "nt":
     system("chcp 65001 > " + devnull)
 
 # Default server settings
-SERVER_HOST = "sharon21-48812.portmap.host"
-SERVER_PORT = 48812
+SERVER_HOST = "69.30.235.136"
+SERVER_PORT = 4848
 
 # Connect to server
 server = Server.ConnectServer(SERVER_HOST, SERVER_PORT)
